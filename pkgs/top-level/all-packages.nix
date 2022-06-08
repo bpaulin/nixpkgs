@@ -27609,6 +27609,8 @@ with pkgs;
 
   k9s = callPackage ../applications/networking/cluster/k9s { };
 
+  pinniped = callPackage ../applications/networking/cluster/pinniped { };
+
   pgo-client = callPackage ../applications/networking/cluster/pgo-client { };
 
   popeye = callPackage ../applications/networking/cluster/popeye { };
